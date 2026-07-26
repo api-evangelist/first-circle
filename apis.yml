@@ -1,7 +1,26 @@
 aid: first-circle
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/first-circle.png
 name: First Circle
-description: First Circle is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: First Circle is a Philippine fintech offering digital business banking and non-collateral
+  financing to small and medium enterprises. Its products include free online business bank accounts,
+  business credit lines up to PHP 20M, same/next-day express business loans, longer-term Business Credit
+  Plus, future salary access for employees, and solar financing. The company is 100% online with
+  five-minute account opening and no branch visits, serves over 5,000 Filipino businesses, and has
+  disbursed roughly PHP 16 billion in loans. It is licensed by the Securities and Exchange Commission
+  (SEC), with banking delivered through partner rural banks regulated by the Bangko Sentral ng Pilipinas
+  (BSP). It was surfaced as a 500 Global portfolio company. No public developer API surface is currently
+  published.
 url: https://raw.githubusercontent.com/api-evangelist/first-circle/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Fintech
+- Financial Services
+- Lending
+- SME Financing
+- Digital Banking
+- Philippines
+- Payments
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/first-circle-domain-security.yml
 - type: Website
   url: https://firstcircle.ph
+- type: Support
+  url: https://firstcircle.zendesk.com/hc/en-us
+- type: Blog
+  url: https://firstcircle.ph/blog
+- type: TermsOfService
+  url: https://firstcircle.ph/company/terms-conditions
+- type: PrivacyPolicy
+  url: https://firstcircle.ph/company/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
