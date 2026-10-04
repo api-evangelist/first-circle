@@ -45,7 +45,7 @@ modified: '2026-07-19'
 tags:
 - Company
 - Fintech
-- Financial-Services
+- Financial Services
 - Lending
 - SME Financing
 - Digital Banking
@@ -60,6 +60,7 @@ tags_raw:
 - Digital Banking
 - Philippines
 - Payments
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
