@@ -5,7 +5,7 @@
       "source": "https://www.firstcircle.ph/blog",
       "feed_url": "https://www.firstcircle.ph/blog/rss.xml",
       "title": "",
-      "saved": 4,
+      "saved": 0,
       "method": "discovered"
     },
     {
@@ -23,6 +23,13 @@
       "method": "discovered"
     },
     {
+      "source": "https://firstcircle.ph/blog/rss.xml",
+      "feed_url": "https://firstcircle.ph/blog/rss.xml",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
       "source": "https://firstcircle.zendesk.com/hc/en-us",
       "feed_url": "https://firstcircle.zendesk.com/hc/en-us",
       "title": "",
@@ -30,6 +37,6 @@
       "method": "none"
     }
   ],
-  "post_count": 4,
-  "fetched": "2026-10-10T13:15:00Z"
+  "post_count": 50,
+  "fetched": "2026-10-17T14:53:57Z"
 }
